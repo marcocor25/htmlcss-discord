@@ -8,10 +8,109 @@
 
 html {
     font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
 }
 
-/* ---------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
 
+/* PRESET CONTENITORI */
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
 
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* HEADER */
+
+header {
+    max-width: 100%;
+    height: 500px;
+    background-image: url(img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+.logo-col {
+    width: 15%;
+    float: left;
+}
+
+.button-col {
+    width: 70%;
+    float: left;
+}
+
+.log-in-col {
+    width: 15%;
+    float: left;
+}
+
+.logo-box {
+    height: 34px;
+}
+
+.button-box {
+    margin: 0 auto;
+}
+
+.button-list {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    line-height: 34px;
+}
+
+.button {
+    padding: 5px 5px;
+    margin-left: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+.log-in-button {
+    text-align: center;
+    line-height: 34px;
+}
+
+.log-in {
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    background: white;
+    color: black;
+}
+
+.log-in:hover {
+    transition: color 300ms;
+    color: #265EE8;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
 
