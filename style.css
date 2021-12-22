@@ -19,7 +19,6 @@ html {
 .container {
     max-width: 960px;
     margin: 0 auto;
-    border: 2px solid red;
 }
 
 .section-background {
@@ -324,13 +323,13 @@ img {
 }
 
 .footer-col-title {
-    width: 200px;
+    max-width: 200px;
 }
 
 .footer-col-title h1 {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 24px;
-    color: #7388DA;
+    color: #5765F2;
 }
 
 .language {
@@ -339,7 +338,6 @@ img {
 }
 
 .social {
-    background: green;
     margin-left: -10px;
     font-size: 15px;
 }
@@ -347,6 +345,65 @@ img {
 .social li {
     float: left;
     margin-left: 15px;
+}
+
+.social a {
+    color: white;
+}
+
+.footer-col-small {
+    padding-left: 40px;
+}
+
+.footer-col-small ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+.footer-col-small li {
+    padding-top: 8px;
+}
+
+.footer-col-small a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-col-small a:hover {
+    text-decoration: underline;
+}
+
+.footer-row {
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    border-top: 1px solid #465277;
+}
+
+.logo-footer {
+    width: 100px;
+    float: left;
+}
+
+.sign-up {
+    width: 100px;
+    text-align: right;
+    float: right;
+}
+
+.sign-up-anchor {
+    padding: 6px 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #5765F2;
+}
+
+.sign-up-anchor:hover {
+    background: #7983F6;
+    transition: background-color 300ms;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 /* ---------------------------------------------------------------------------------------------------- */
