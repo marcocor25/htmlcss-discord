@@ -7,8 +7,8 @@
     <title>Discord | Il luogo ideale per parlare e ritrovarsi</title>
     <link rel="icon" href="img/discord-icon.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -16,41 +16,43 @@
 
     <header>
 
-        <div class="container clearfix">
+        <div class="container clearfix" id="padding-top">
 
-            <div class="menu">
+            <!-- LOGO -->
 
-                <!-- LOGO -->
+            <section class="logo-col">
 
-                <section class="logo-col">
-                    <div class="logo-wrapper">
-                        <a href="#" class="logo-anchor"><img src="img/logo.svg"></a>
-                    </div>
-                </section>
+                <div class="logo-wrapper">
+                    <a href="#" class="logo-anchor"><img src="img/logo.svg"></a>
+                </div>
 
-                <!-- NAV BAR -->
+            </section>
 
-                <section class="button-col">
-                    <nav class="button-wrapper">
-                        <ul class="ul-button">
-                            <li class="li-button"><a href="#" class="button">Scarica</a></li>
-                            <li class="li-button"><a href="#" class="button">Perchè Discord</a></li>
-                            <li class="li-button"><a href="#" class="button">Nitro</a></li>
-                            <li class="li-button"><a href="#" class="button">Sicurezza</a></li>
-                            <li class="li-button"><a href="#" class="button">Assistenza</a></li>
-                        </ul>
-                    </nav>
-                </section>
+            <!-- NAV BAR -->
 
-                <!-- LOG-IN -->
-                
-                <section class="log-in-col">
-                    <div class="log-in-button">
-                        <a href="#" class="accedi">Accedi</a>
-                    </div>
-                </section>
+            <section class="button-col">
 
-            </div>
+                <nav class="button-wrapper">
+                    <ul class="ul-button">
+                        <li class="li-button"><a href="#" class="button">Scarica</a></li>
+                        <li class="li-button"><a href="#" class="button">Perchè Discord</a></li>
+                        <li class="li-button"><a href="#" class="button">Nitro</a></li>
+                        <li class="li-button"><a href="#" class="button">Sicurezza</a></li>
+                        <li class="li-button"><a href="#" class="button">Assistenza</a></li>
+                    </ul>
+                </nav>
+
+            </section>
+
+            <!-- LOG-IN -->
+
+            <section class="log-in-col">
+
+                <div class="log-in-button">
+                    <a href="#" class="accedi">Accedi</a>
+                </div>
+
+            </section>
 
         </div>
 
@@ -94,25 +96,31 @@
 
                 <div class="main-col-2">
                     <div class="main-content">
-                        <h1 class="main-title">Un luogo a invito con tutto lo spazio necessario per parlare</h1>
-                        <p class="main-description">I server di Discord sonon organizzati in canaeli tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.</p>
+                        <h1>Un luogo a invito con tutto lo spazio necessario per parlare</h1>
+                        <p>I server di Discord sonon organizzati in canaeli tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.</p>
                     </div>
                 </div>
 
             </div>
 
+            <!-- WAVE BACKGROUND -->
+
+            <svg class="wave-bottom" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none">
+                <path class="wavePath-haxJK1 animationPaused-2hZ4IO" d="M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z" fill="currentColor"></path>
+            </svg>
+
         </section>
 
         <!-- SECONDA SCHEDA -->
 
-        <section class="main-background">
+        <section class="main-background lightgrey">
 
             <div class="container clearfix">
-                
+
                 <div class="main-col-2">
                     <div class="main-content">
-                        <h1 class="main-title">Dove trovarsi è facile</h1>
-                        <p class="main-description">Mettiti comodo in un canale vocale quando hai tempo. Gli amici nei tuoi server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare.</p>
+                        <h1>Dove trovarsi è facile</h1>
+                        <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nei tuoi server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare.</p>
                     </div>
                 </div>
 
@@ -140,8 +148,52 @@
 
                 <div class="main-col-2">
                     <div class="main-content">
-                        <h1 class="main-title">Da pochi a un fandom</h1>
-                        <p class="main-description">Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privsati, e molto altro.</p>
+                        <h1>Da pochi a un fandom</h1>
+                        <p>Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privsati, e molto altro.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- WABE BACKGROUND -->
+
+            <svg class="wave-top" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none">
+                <path class="wavePath-haxJK1 animationPaused-2hZ4IO" d="M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z" fill="currentColor"></path>
+            </svg>
+
+            <svg class="wave-bottom" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none">
+                <path class="wavePath-haxJK1 animationPaused-2hZ4IO" d="M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z" fill="currentColor"></path>
+            </svg>
+
+        </section>
+
+        <!-- QUARTA SCHEDA -->
+
+        <section class="main-background lightgrey">
+
+            <div class="container clearfix">
+
+                <div class="banner-row">
+                    <h1>Tecnologia affidabile per tenersi in contatto</h1>
+                    <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
+                </div>
+
+                <div class="banner-img">
+                    <img src="img/item4-big.svg">
+                </div>
+
+                <div class="discover-app">
+                    <svg class="stars" width="531" height="49" viewBox="0 0 531 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M527.098 15.0977L530.701 13.5155C530.789 13.4276 530.789 13.3397 530.701 13.3397L527.098 11.7576L525.428 8.06592C525.428 7.97803 525.34 7.97803 525.34 8.06592L523.67 11.6697L520.066 13.3397C519.978 13.3397 519.978 13.4276 520.066 13.5155L523.67 15.0977L525.34 18.7015H525.428L527.098 15.0977Z" fill="#6ADBC6"/>
+                        <path opacity="0.5" d="M303.575 6.4L306.975 4.9V4.7L303.575 3.3L302.075 0H301.875L300.375 3.3L297.075 4.7C296.975 4.8 296.975 4.9 297.075 4.9L300.375 6.4L301.875 9.8H302.075L303.575 6.4Z" fill="#9691FF"/>
+                        <path d="M505.875 43.8621L510.95 41.6367C510.982 41.6007 511 41.5541 511 41.5058C511 41.4575 510.982 41.4109 510.95 41.3749L505.875 39.1495L503.598 34.0443C503.585 34.0304 503.57 34.0192 503.554 34.0116C503.537 34.004 503.518 34 503.5 34C503.482 34 503.463 34.004 503.446 34.0116C503.43 34.0192 503.415 34.0304 503.402 34.0443L501.125 39.0841L496.05 41.3749C496.018 41.4109 496 41.4575 496 41.5058C496 41.5541 496.018 41.6007 496.05 41.6367L501.125 43.8621L503.402 48.9018C503.489 49.0327 503.554 49.0327 503.598 48.9018L505.875 43.8621Z" fill="#628BF7"/>
+                        <path d="M15.2764 34.15L22.9764 30.75C23.0294 30.75 23.0803 30.7289 23.1178 30.6914C23.1553 30.6539 23.1764 30.603 23.1764 30.55C23.1764 30.497 23.1553 30.4461 23.1178 30.4086C23.0803 30.3711 23.0294 30.35 22.9764 30.35L15.2764 26.95C15.2499 26.95 15.2244 26.9395 15.2057 26.9207C15.1869 26.902 15.1764 26.8765 15.1764 26.85L11.6764 19.15C11.6764 18.95 11.4764 18.95 11.3764 19.15L7.97639 26.85H7.87639L0.0763931 30.35C0.0271976 30.405 0 30.4762 0 30.55C0 30.6238 0.0271976 30.695 0.0763931 30.75L7.87639 34.15H7.97639L11.3764 41.95C11.4764 42.15 11.6764 42.15 11.6764 41.95L15.1764 34.25C15.1764 34.2235 15.1869 34.198 15.2057 34.1793C15.2244 34.1605 15.2499 34.15 15.2764 34.15Z" fill="#FF7ABC"/>
+                    </svg>
+
+                    <h1>Pronto a iniziare la tua avventura?</h1>
+
+                    <div class="get-app">
+                        <a href="#" class="get-app-anchor"><i class="fas fa-arrow-down"></i> Scarica per Mac</a>
                     </div>
                 </div>
 
@@ -149,19 +201,19 @@
 
         </section>
 
-        <!-- QUARTA SCHEDA -->
-
-
-
-
-
-        <!-- to be continued... -->
-
-
-
-
-        
     </main>
+
+    <!-- FOOTER -->
+
+
+
+
     
+    <!-- to be continued... -->
+
+
+
+
+
 </body>
 </html>
