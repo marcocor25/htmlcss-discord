@@ -306,14 +306,48 @@ img {
     background: #23272A;
 }
 
+.footer-col-large {
+    width: 28%;
+    float: left;
+    color: white;
+}
 
+.footer-col-small {
+    width: 18%;
+    float: left;
+    color: white;
+}
 
+.footer-row {
+    width: 100%;
+    color: white;
+}
 
+.footer-col-title {
+    width: 200px;
+}
 
+.footer-col-title h1 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #7388DA;
+}
 
+.language {
+    padding: 15px 0;
+    vertical-align: middle;
+}
 
+.social {
+    background: green;
+    margin-left: -10px;
+    font-size: 15px;
+}
 
-
+.social li {
+    float: left;
+    margin-left: 15px;
+}
 
 /* ---------------------------------------------------------------------------------------------------- */
 
